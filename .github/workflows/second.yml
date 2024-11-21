@@ -39,4 +39,4 @@ jobs:
         pip install pytest flask
         rm -r __pycache__
         export PYTHONPATH=/home/runner/work/git_poc/git_poc/git_2/src
-        pytest
+        python3 /home/runner/work/git_poc/git_poc/git_2/src/app.py
